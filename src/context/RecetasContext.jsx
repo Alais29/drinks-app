@@ -28,6 +28,7 @@ const RecetasProvider = ({ children }) => {
   return (  
     <RecetasContext.Provider
       value={{
+        recetas,
         buscarRecetas,
         guardarConsultar
       }}
